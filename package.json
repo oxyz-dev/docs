@@ -1,0 +1,28 @@
+{
+  "name": "oxyz-docs",
+  "description": "",
+  "type": "module",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=20.20.0"
+  },
+  "homepage": "https://github.com/oxyz-dev/docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxyz-dev/docs.git"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.30"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "typescript": "^5.9.3",
+    "vitepress": "^2.0.0-alpha.16",
+    "vue-tsc": "^3.2.5"
+  }
+}
